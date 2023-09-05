@@ -51,8 +51,8 @@
         </div>
 
         <div class="form-button">
-            <button type="submit" name="submit" class="btn primary">Tambah</button>
-            <a href="index.php?page=product-index" class="btn danger">Cancel</a>
+            <button type="submit" name="submit" class="btn primary"><span class="fa fa-floppy-disk"></span> Tambah</button>
+            <a href="index.php?page=product-index" class="btn danger"><span class="fa fa-xmark"></span> Cancel</a>
         </div>
     </form>
 </div>

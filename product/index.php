@@ -6,7 +6,7 @@
 
 <div class="main-title">
     <h1>Products</h1>
-    <a href="index.php?page=product-create" class="btn primary">Add new products</a>
+    <a href="index.php?page=product-create" class="btn primary"><span class="fa fa-plus"></span> Add new products</a>
 </div>
 
 <table border="1">
@@ -29,8 +29,8 @@
                     <td>Rp. <?= htmlspecialchars(number_format($data->price, 0, '.', '.')) ?></td>
                     <td><?= htmlspecialchars($data->quantity) ?></td>
                     <td class="action">
-                        <a href="index.php?page=product-update&id=<?= $data->id ?>" class="btn success">Edit</a>
-                        <a class="btn danger" onclick="deleteConfirm('index.php?page=product-destroy&id=<?= $data->id ?>')">Hapus</a>
+                        <a href="index.php?page=product-update&id=<?= $data->id ?>" class="btn success"><span class="fa fa-edit"></span> Edit</a>
+                        <a class="btn danger" onclick="deleteConfirm('index.php?page=product-destroy&id=<?= $data->id ?>')"><span class="fa fa-trash"></span> Hapus</a>
                     </td>
                 </tr>
             <?php }
