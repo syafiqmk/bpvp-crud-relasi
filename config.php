@@ -28,6 +28,18 @@
                 return "Edit product";
                 break;
 
+            case "product-index":
+                return "Products";
+                break;
+
+            case "product-create":
+                return "Add new product";
+                break;
+
+            case "product-update":
+                return "Edit product";
+                break;
+
             default:
                 return "default";
                 break;
@@ -51,6 +63,22 @@
 
             case "product-destroy":
                 return "product/destroy.php";
+                break;
+
+            case "customer-index":
+                return "customer/index.php";
+                break;
+
+            case "customer-create":
+                return "customer/create.php";
+                break;
+
+            case "customer-update":
+                return "customer/update.php";
+                break;
+
+            case "customer-destroy":
+                return "customer/destroy.php";
                 break;
         }
     }
