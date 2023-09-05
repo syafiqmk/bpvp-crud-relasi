@@ -102,7 +102,7 @@ main {
 }
 
 .input-group {
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 .input-group label {
@@ -117,4 +117,10 @@ main {
     font-size: 1rem;
     padding: 10px;
     border-radius: 5px;
+}
+
+.input-group img {
+    display: block;
+    width: 60%;
+    margin: 20px auto;
 }
