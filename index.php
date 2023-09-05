@@ -29,6 +29,7 @@
     
             <nav>
                 <a href="index.php?page=product-index">Products</a>
+                <a href="index.php?page=customer-index">Customers</a>
             </nav>
         </div>
     </header>
