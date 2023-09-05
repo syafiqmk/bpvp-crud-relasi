@@ -6,7 +6,7 @@
 
 <div class="main-title">
     <h1>Customers</h1>
-    <a href="index.php?page=product-create" class="btn primary"><span class="fa fa-plus"></span> Add new customer</a>
+    <a href="index.php?page=customer-create" class="btn primary"><span class="fa fa-plus"></span> Add new customer</a>
 </div>
 
 <table border="1">
