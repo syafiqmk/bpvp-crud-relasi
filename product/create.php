@@ -1,7 +1,5 @@
 <?php 
 
-    $id = $_GET['id'];
-
     if(isset($_POST['submit'])) {
         $name = ucwords($_POST['name']);
         $desc = ucfirst($_POST['description']);
