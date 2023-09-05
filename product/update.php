@@ -11,7 +11,7 @@
         $price = $_POST['price'];
         $qty = $_POST['quantity'];
         
-        if(empty($_FILES['image'])) {
+        if(empty($_FILES['image']['name'])) {
             $img_name = $d_product->image;
         } else {
             $img_name = $_FILES['image']['name'];
