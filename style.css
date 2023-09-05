@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.red {
+    color: red;
+}
+
 table {
     border-collapse: collapse;
     width: 100%;
