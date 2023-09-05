@@ -27,6 +27,11 @@ td.action {
     text-align: center;
 }
 
+table tr td img {
+    display: inline-block;
+    width: 150px;
+}
+
 .btn, button.btn {
     text-decoration: none;
     border: none;

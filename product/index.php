@@ -12,6 +12,7 @@
 <table border="1">
     <thead>
         <th>No.</th>
+        <th>Gambar</th>
         <th>Nama Barang</th>
         <th>Deskripsi</th>
         <th>Harga Satuan</th>
@@ -24,13 +25,14 @@
             while($data = mysqli_fetch_object($q_s_products)) { ?>
                 <tr>
                     <td align="center"><?= $no++ ?></td>
+                    <td><img src="uploads/img/<?= (!empty($data->image)) ? htmlspecialchars($data->image) : "No-Image.png" ?>" alt="<?= htmlspecialchars(ucwords($data->name)) ?>"></td>
                     <td><?= htmlspecialchars(ucwords($data->name)) ?></td>
                     <td><?= htmlspecialchars($data->description) ?></td>
                     <td>Rp. <?= htmlspecialchars(number_format($data->price, 0, '.', '.')) ?></td>
                     <td><?= htmlspecialchars($data->quantity) ?></td>
                     <td class="action">
-                        <a href="index.php?page=product-update&id=<?= $data->id ?>" class="btn success"><span class="fa fa-edit"></span> Edit</a>
-                        <a class="btn danger" onclick="deleteConfirm('index.php?page=product-destroy&id=<?= $data->id ?>')"><span class="fa fa-trash"></span> Hapus</a>
+                        <a href="index.php?page=product-update&id=<?= $data->id ?>" class="btn success"><span class="fa fa-edit"></span></a>
+                        <a class="btn danger" onclick="deleteConfirm('index.php?page=product-destroy&id=<?= $data->id ?>')"><span class="fa fa-trash"></span></a>
                     </td>
                 </tr>
             <?php }
