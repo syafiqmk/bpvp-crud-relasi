@@ -132,3 +132,12 @@ main {
     width: 60%;
     margin: 20px auto;
 }
+
+.input-group .input-radio {
+    display: inline-block;
+}
+
+.input-group .input-radio input[type="radio"], .input-group .input-radio label {
+    display: inline-block;
+    width: auto !important;
+}
