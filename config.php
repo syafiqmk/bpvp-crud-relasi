@@ -8,7 +8,7 @@
     define("DB_HOST", "localhost");
     define("DB_USER", "root");
     define("DB_PASS", "");
-    define("DB_NAME", "learn_hasil");
+    define("DB_NAME", "learn_sekolah");
 
     // Database Connetction
     $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
@@ -16,16 +16,16 @@
     // Title function
     function title($page) {
         switch($page) {
-            case "product-index":
-                return "Products";
+            case "city-index":
+                return "Cities";
                 break;
 
-            case "product-create":
-                return "Add new product";
+            case "city-create":
+                return "Add new city";
                 break;
 
-            case "product-update":
-                return "Edit product";
+            case "city-update":
+                return "Edit city";
                 break;
 
             case "customer-index":
@@ -61,20 +61,20 @@
     // Page function
     function page($page) {
         switch($page) {
-            case "product-index":
-                return "product/index.php";
+            case "city-index":
+                return "city/index.php";
                 break;
 
-            case "product-create":
-                return "product/create.php";
+            case "city-create":
+                return "city/create.php";
                 break;
 
-            case "product-update":
-                return "product/update.php";
+            case "city-update":
+                return "city/update.php";
                 break;
 
-            case "product-destroy":
-                return "product/destroy.php";
+            case "city-destroy":
+                return "city/destroy.php";
                 break;
 
             case "customer-index":

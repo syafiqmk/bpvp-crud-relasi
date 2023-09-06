@@ -6,7 +6,7 @@
     if(!empty($_GET['page'])) {
         $page = $_GET['page'];
     } else {
-        $page = "product-index";
+        $page = "city-index";
     }
 ?>
 
