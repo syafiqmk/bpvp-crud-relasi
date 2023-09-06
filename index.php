@@ -28,9 +28,8 @@
             <h2 id="logo">CRUD</h2>
     
             <nav>
-                <a href="index.php?page=product-index">Products</a>
-                <a href="index.php?page=customer-index">Customers</a>
-                <a href="index.php?page=supplier-index">Suppliers</a>
+                <a href="index.php?page=city-index">Cities</a>
+                <a href="index.php?page=class-index">Clases</a>
             </nav>
         </div>
     </header>

@@ -28,16 +28,16 @@
                 return "Edit city";
                 break;
 
-            case "customer-index":
-                return "Customers";
+            case "class-index":
+                return "Clases";
                 break;
 
-            case "customer-create":
-                return "Add new customer";
+            case "class-create":
+                return "Add new class";
                 break;
 
-            case "customer-update":
-                return "Edit customer";
+            case "class-update":
+                return "Edit class";
                 break;
 
             case "supplier-index":
@@ -77,20 +77,20 @@
                 return "city/destroy.php";
                 break;
 
-            case "customer-index":
-                return "customer/index.php";
+            case "class-index":
+                return "class/index.php";
                 break;
 
-            case "customer-create":
-                return "customer/create.php";
+            case "class-create":
+                return "class/create.php";
                 break;
 
-            case "customer-update":
-                return "customer/update.php";
+            case "class-update":
+                return "class/update.php";
                 break;
 
-            case "customer-destroy":
-                return "customer/destroy.php";
+            case "class-destroy":
+                return "class/destroy.php";
                 break;
 
             case "supplier-index":
