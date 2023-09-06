@@ -30,6 +30,7 @@
             <nav>
                 <a href="index.php?page=product-index">Products</a>
                 <a href="index.php?page=customer-index">Customers</a>
+                <a href="index.php?page=supplier-index">Suppliers</a>
             </nav>
         </div>
     </header>
