@@ -52,6 +52,22 @@
                 return "Edit parent";
                 break;
 
+            case "student-index":
+                return "Students";
+                break;
+
+            case "student-create":
+                return "Add new student";
+                break;
+
+            case "student-update":
+                return "Edit student";
+                break;
+
+            case "student-show":
+                return "Detail student";
+                break;
+
             default:
                 return "default";
                 break;
@@ -107,6 +123,26 @@
 
             case "parent-destroy":
                 return "parent/destroy.php";
+                break;
+
+            case "student-index":
+                return "student/index.php";
+                break;
+
+            case "student-create":
+                return "student/create.php";
+                break;
+
+            case "student-update":
+                return "student/update.php";
+                break;
+
+            case "student-destroy":
+                return "student/destroy.php";
+                break;
+
+            case "student-show":
+                return "student/show.php";
                 break;
         }
     }

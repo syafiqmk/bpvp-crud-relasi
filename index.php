@@ -31,6 +31,7 @@
                 <a href="index.php?page=city-index">Cities</a>
                 <a href="index.php?page=class-index">Classes</a>
                 <a href="index.php?page=parent-index">Parents</a>
+                <a href="index.php?page=student-index">Students</a>
             </nav>
         </div>
     </header>
