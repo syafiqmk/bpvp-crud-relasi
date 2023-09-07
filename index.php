@@ -25,11 +25,12 @@
     
     <header>
         <div class="header-content">
-            <h2 id="logo">CRUD</h2>
+            <h2 id="logo">CRUD RELASI</h2>
     
             <nav>
                 <a href="index.php?page=city-index">Cities</a>
-                <a href="index.php?page=class-index">Clases</a>
+                <a href="index.php?page=class-index">Classes</a>
+                <a href="index.php?page=parent-index">Parents</a>
             </nav>
         </div>
     </header>

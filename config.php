@@ -40,16 +40,16 @@
                 return "Edit class";
                 break;
 
-            case "supplier-index":
-                return "Suppliers";
+            case "parent-index":
+                return "Parents";
                 break;
 
-            case "supplier-create":
-                return "Add new supplier";
+            case "parent-create":
+                return "Add new parent";
                 break;
 
-            case "supplier-update":
-                return "Edit supplier";
+            case "parent-update":
+                return "Edit parent";
                 break;
 
             default:
@@ -93,20 +93,20 @@
                 return "class/destroy.php";
                 break;
 
-            case "supplier-index":
-                return "supplier/index.php";
+            case "parent-index":
+                return "parent/index.php";
                 break;
 
-            case "supplier-create":
-                return "supplier/create.php";
+            case "parent-create":
+                return "parent/create.php";
                 break;
 
-            case "supplier-update":
-                return "supplier/update.php";
+            case "parent-update":
+                return "parent/update.php";
                 break;
 
-            case "supplier-destroy":
-                return "supplier/destroy.php";
+            case "parent-destroy":
+                return "parent/destroy.php";
                 break;
         }
     }
