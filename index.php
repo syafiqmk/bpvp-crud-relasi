@@ -1,6 +1,10 @@
 <?php 
     require_once("config.php");
 
+    if(empty($_SESSION['id'])) {
+        header('location:login.php');
+    }
+
     $page = "";
 
     if(!empty($_GET['page'])) {
@@ -32,6 +36,7 @@
                 <a href="index.php?page=class-index">Classes</a>
                 <a href="index.php?page=parent-index">Parents</a>
                 <a href="index.php?page=student-index">Students</a>
+                <a href="logout.php" class="btn danger">Logout</a>
             </nav>
         </div>
     </header>
