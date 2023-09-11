@@ -36,6 +36,7 @@
                 <a href="index.php?page=class-index">Classes</a>
                 <a href="index.php?page=parent-index">Parents</a>
                 <a href="index.php?page=student-index">Students</a>
+                <p class="btn primary"><span class="fa fa-user"></span> <?= $_SESSION['user'] ?></p>
                 <a href="logout.php" class="btn danger">Logout</a>
             </nav>
         </div>
