@@ -5,7 +5,7 @@
 ?>
 
 <div class="main-title">
-    <h1>classes</h1>
+    <h1>Classes</h1>
     <a href="index.php?page=class-create" class="btn primary"><span class="fa fa-plus"></span> Add new class</a>
 </div>
 
