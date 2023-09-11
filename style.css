@@ -71,7 +71,7 @@ header {
     padding: 20px;
     background-color: #445069;
     color: white;
-    position: sticky;
+    position: fixed;
     top: 0;
     max-width: 100%;
 }
@@ -99,6 +99,7 @@ header .header-content nav a {
 .content {
     /* display: grid; */
     /* grid-template-columns: auto 80vw; */
+    margin-top: 12vh;
 }
 
 aside {
@@ -109,7 +110,7 @@ aside {
     top: 0;
     left: 0;
     width: 20vw;
-    padding-top: 15vh;
+    padding-top: 12vh;
     z-index: -1;
 }
 
