@@ -12,6 +12,8 @@
     } else {
         $page = "city-index";
     }
+
+    $pageCat = explode('-', $page);
 ?>
 
 <!DOCTYPE html>
@@ -32,21 +34,27 @@
             <h2 id="logo">CRUD RELASI</h2>
     
             <nav>
-                <a href="index.php?page=city-index">Cities</a>
-                <a href="index.php?page=class-index">Classes</a>
-                <a href="index.php?page=parent-index">Parents</a>
-                <a href="index.php?page=student-index">Students</a>
                 <p class="btn primary"><span class="fa fa-user"></span> <?= $_SESSION['user'] ?></p>
                 <a href="logout.php" class="btn danger">Logout</a>
             </nav>
         </div>
     </header>
+    
+    <div class="content">
+        <aside>
+            <a href="index.php?page=city-index" class="<?= ($pageCat[0] == 'city') ? 'active' : '' ?>"><span class="fa fa-city"></span> Cities</a>
+            <a href="index.php?page=class-index" class="<?= ($pageCat[0] == 'class') ? 'active' : '' ?>"><span class="fa fa-chalkboard-user"></span> Classes</a>
+            <a href="index.php?page=parent-index" class="<?= ($pageCat[0] == 'parent') ? 'active' : '' ?>"><span class="fa fa-users"></span> Parents</a>
+            <a href="index.php?page=student-index" class="<?= ($pageCat[0] == 'student') ? 'active' : '' ?>"><span class="fa fa-school"></span> Students</a>
+        </aside>
 
-    <main>
-        <?php 
-            require_once page($page);
-        ?>
-    </main>
+        <main>
+            <?php 
+                require_once page($page);
+            ?>
+        </main>
+    </div>
+
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

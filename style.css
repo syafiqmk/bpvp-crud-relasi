@@ -31,6 +31,11 @@ table tr td, table th {
 
 td.action {
     text-align: center;
+    width: 20%;
+}
+
+td:nth-child(1) {
+    width: 5%;
 }
 
 table tr td img {
@@ -63,7 +68,7 @@ table tr td img {
 
 header {
     width: 100vw;
-    padding: 20px 0;
+    padding: 20px;
     background-color: #445069;
     color: white;
     position: sticky;
@@ -72,7 +77,7 @@ header {
 }
 
 header .header-content {
-    width: 80vw;
+    /* width: 80vw; */
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -91,9 +96,39 @@ header .header-content nav a {
     margin: 0 10px;
 }
 
+.content {
+    /* display: grid; */
+    /* grid-template-columns: auto 80vw; */
+}
+
+aside {
+    float: left;
+    background-color: #f1f1f1;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    padding-top: 15vh;
+    z-index: -1;
+}
+
+aside a {
+    display: block;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 20px 25px;
+    color: black;
+}
+
+aside a.active {
+    background-color: rgb(93, 93, 238);
+    color: white;
+}
+
 main {
+    float: right;
     width: 80vw;
-    margin: auto;
     padding: 25px 30px;
 }
 
